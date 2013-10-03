@@ -1,0 +1,4 @@
+/* For IE 6/7 (trigger hasLayout) */
+.g-clrfix {
+	zoom: 1;
+}

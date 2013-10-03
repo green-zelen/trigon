@@ -1,0 +1,36 @@
+/* Cleaf-fix */
+/* For modern browsers */
+.g-clrfix:before,
+.g-clrfix:after {
+	content: "";
+	display: table;
+}
+
+.g-clrfix:after {
+	clear: both;
+}
+
+/* Hide helper */
+.g-hidden {
+	display: none !important;
+}
+
+/* Ellipsis text-overflow */
+.g-text-overflow {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	-moz-binding: url(../text-overflow.xml#ellipsis);
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+/* No selection allowed */
+.g-ns {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
